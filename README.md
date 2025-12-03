@@ -84,9 +84,9 @@ http://localhost:8501
 
 ## Cấu trúc thư mục
 ```bash
-DoAn_SentimentAssistant/
+Seminar/
 │
-├─ app.py                 # file code chính
+├─ app.py                 # File chính
 ├─ nlp_model.py           # NLP model
 ├─ db.py                  # SQLite helper
 ├─ requirements.txt       # Danh sách packages
@@ -96,13 +96,9 @@ DoAn_SentimentAssistant/
 ├─ db/
 │   └─ sentiments.db      # Lịch sử
 │
-├─ report/
-│   ├─ seminar_report.pdf    # Báo cáo
-│   └─ seminar_report.docx   # Báo cáo
-│
-└─ demo/
-    └─ video_demo.mp4     # Video demo
-```
+└─ doc/
+    ├─ BaoCao_DoAn.pdf    # Báo cáo
+    └─ BaoCao_DoAn.docx   # Báo cáo
 
 ## Tính năng chính
 ### 1. Nhập câu tiếng Việt
@@ -166,23 +162,7 @@ Thời tiết bình thường	NEUTRAL
 
 
 
-## Cấu trúc thư mục
-```bash
-DoAn_SentimentAssistant/
-│
-├─ app.py                 # App Streamlit chính
-├─ nlp_model.py           # Xử lý tiếng Việt + NLP model
-├─ db.py            # SQLite helper
-├─ requirements.txt       # Danh sách packages
-├─ README.md              # File hướng dẫn này
-├─ test_cases.csv         # Bộ test case
-│
-├─ db/
-│   └─ sentiments.db      # Database lịch sử
-│
-└─ docs/
-    ├─ BaoCao_DoAn.pdf    # Báo cáo
-    └─ BaoCao_DoAn.docx   # Báo cáo
+
 
 
 ## Yêu cầu đầu ra (Chuẩn theo đề bài)
